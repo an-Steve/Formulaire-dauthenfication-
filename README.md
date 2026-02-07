@@ -93,7 +93,7 @@ git clone https://github.com/an-Steve/Formulaire-dauthenfication-.git
 **Compte de démonstration :**
 - **Identifiant :** `admin`
 - **Mot de passe :** `password`
- Cliquez sur **"Se connecter"** (2 fois) 
+- Cliquez sur **"Se connecter"** (2 fois) 
 
 ### Créer un nouveau compte
 
