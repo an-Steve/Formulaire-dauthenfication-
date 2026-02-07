@@ -41,7 +41,7 @@ Ce projet est un formulaire d'authentification web sécurisé développé dans l
 
 ##  Technologies utilisées
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 
 | Technologie | Description |
 |------------|-------------|
@@ -52,6 +52,23 @@ Ce projet est un formulaire d'authentification web sécurisé développé dans l
 | **MySQL** | Base de données SQL pour le stockage des utilisateurs |
 | **WAMP Server 64** | Environnement de développement (Windows, Apache, MySQL, PHP) |
 
+##  Base de données
+
+<img width="1913" height="917" alt="image" src="https://github.com/user-attachments/assets/442eb37e-e26a-424d-af0d-eb910d166013" />
+
+→ Utilisation avec WampServer pour la gestion de la base de données.
+
+### Accès à phpMyAdmin 
+Une fois WampServer lancé, accédez à phpMyAdmin via le lien suivant :  
+http://localhost/phpmyadmin/
+
+### Informations de connexion →  
+- Identifiant : `root`  
+- Mot de passe : *(laisser vide)*  
+
+### Configuration de la base de données →  
+- Nom de la base de données : `auth_secure`  
+- Nom de la table : `user`
 
   ##  Installation
 
