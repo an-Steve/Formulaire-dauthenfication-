@@ -26,6 +26,15 @@ $username = $_SESSION['username'];
             --border-color: #e5e7eb;
         }
 
+        /* Mode sombre */
+        body.dark-mode {
+            --text-primary: #f9fafb;
+            --text-secondary: #d1d5db;
+            --background: #111827;
+            --white: #1f2937;
+            --border-color: #374151;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -40,8 +49,52 @@ $username = $_SESSION['username'];
             justify-content: center;
             align-items: center;
             padding: 20px;
+            padding-bottom: 80px;
             position: relative;
             overflow: hidden;
+            transition: background 0.3s ease;
+        }
+
+        body.dark-mode {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        }
+
+        /* Contrôles (thème et langue) */
+        .controls {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+            display: flex;
+            gap: 12px;
+        }
+
+        .control-btn {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .control-btn:hover {
+            background: rgba(255, 255, 255, 0.25);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .lang-text {
+            font-family: 'Inter', sans-serif;
+            letter-spacing: 0.5px;
         }
 
         /* Animation de l'arrière-plan */
@@ -90,6 +143,18 @@ $username = $_SESSION['username'];
             animation-delay: 14s;
         }
 
+        body.dark-mode .shape-1 {
+            background: linear-gradient(135deg, #312e81, #1e1b4b);
+        }
+
+        body.dark-mode .shape-2 {
+            background: linear-gradient(135deg, #7c2d12, #991b1b);
+        }
+
+        body.dark-mode .shape-3 {
+            background: linear-gradient(135deg, #0c4a6e, #164e63);
+        }
+
         @keyframes float {
             0%, 100% {
                 transform: translate(0, 0) scale(1);
@@ -115,6 +180,12 @@ $username = $_SESSION['username'];
             z-index: 1;
             animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1);
             border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: background 0.3s ease, border 0.3s ease;
+        }
+
+        body.dark-mode .dashboard {
+            background: rgba(31, 41, 55, 0.95);
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         @keyframes fadeInUp {
@@ -179,12 +250,14 @@ $username = $_SESSION['username'];
             font-weight: 700;
             margin-bottom: 12px;
             letter-spacing: -0.5px;
+            transition: color 0.3s ease;
         }
 
         .subtitle {
             color: var(--text-secondary);
             font-size: 16px;
             margin-bottom: 32px;
+            transition: color 0.3s ease;
         }
 
         .user-info {
@@ -194,6 +267,11 @@ $username = $_SESSION['username'];
             margin: 28px 0;
             border: 1px solid var(--border-color);
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        body.dark-mode .user-info {
+            background: linear-gradient(135deg, #374151 0%, #4b5563 100%);
         }
 
         .info-row {
@@ -202,6 +280,7 @@ $username = $_SESSION['username'];
             justify-content: space-between;
             padding: 14px 0;
             border-bottom: 1px solid var(--border-color);
+            transition: border-color 0.3s ease;
         }
 
         .info-row:last-child {
@@ -220,6 +299,7 @@ $username = $_SESSION['username'];
             color: var(--text-secondary);
             font-size: 14px;
             font-weight: 600;
+            transition: color 0.3s ease;
         }
 
         .info-label svg {
@@ -230,6 +310,7 @@ $username = $_SESSION['username'];
             color: var(--text-primary);
             font-size: 15px;
             font-weight: 600;
+            transition: color 0.3s ease;
         }
 
         .status-badge {
@@ -242,6 +323,11 @@ $username = $_SESSION['username'];
             border-radius: 20px;
             font-size: 13px;
             font-weight: 600;
+        }
+
+        body.dark-mode .status-badge {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.3), rgba(16, 185, 129, 0.2));
+            color: #6ee7b7;
         }
 
         .status-dot {
@@ -276,6 +362,12 @@ $username = $_SESSION['username'];
             background: #d1fae5;
             border-radius: 12px;
             border-left: 4px solid var(--success-color);
+            transition: all 0.3s ease;
+        }
+
+        body.dark-mode .success-message {
+            background: rgba(16, 185, 129, 0.2);
+            color: #6ee7b7;
         }
 
         .success-message svg {
@@ -318,19 +410,57 @@ $username = $_SESSION['username'];
             transform: translateY(0);
         }
 
-        .secondary-btn {
-            background: white;
-            color: var(--primary-color);
-            border: 2px solid var(--border-color);
+        /* Footer fixe */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            z-index: 50;
+            transition: background 0.3s ease, border 0.3s ease;
         }
 
-        .secondary-btn:hover {
-            border-color: var(--primary-color);
-            background: #f9fafb;
+        body.dark-mode .footer {
+            background: rgba(0, 0, 0, 0.3);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .footer-content p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 14px;
+            font-weight: 400;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer-content strong {
+            font-weight: 700;
+            color: white;
         }
 
         /* Responsive */
         @media (max-width: 480px) {
+            .controls {
+                top: 12px;
+                right: 12px;
+                gap: 8px;
+            }
+
+            .control-btn {
+                width: 42px;
+                height: 42px;
+                font-size: 12px;
+            }
+
             .dashboard {
                 padding: 36px 28px;
             }
@@ -348,10 +478,42 @@ $username = $_SESSION['username'];
                 align-items: flex-start;
                 gap: 8px;
             }
+
+            .footer-content p {
+                font-size: 12px;
+            }
+
+            body {
+                padding-bottom: 70px;
+            }
         }
     </style>
 </head>
 <body>
+    <!-- Contrôles de thème et langue -->
+    <div class="controls">
+        <button id="themeToggle" class="control-btn" aria-label="Changer de thème">
+            <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </button>
+        
+        <button id="langToggle" class="control-btn" aria-label="Changer de langue">
+            <span class="lang-text">FR</span>
+        </button>
+    </div>
+
     <!-- Arrière-plan animé -->
     <div class="background-animation">
         <div class="shape shape-1"></div>
@@ -368,8 +530,8 @@ $username = $_SESSION['username'];
             </svg>
         </div>
         
-        <h1 class="welcome">Bienvenue !</h1>
-        <p class="subtitle">Vous êtes connecté à votre espace sécurisé</p>
+        <h1 class="welcome" data-fr="Bienvenue !" data-en="Welcome!">Bienvenue !</h1>
+        <p class="subtitle" data-fr="Vous êtes connecté à votre espace sécurisé" data-en="You are connected to your secure area">Vous êtes connecté à votre espace sécurisé</p>
         
         <div class="user-info">
             <div class="info-row">
@@ -378,7 +540,7 @@ $username = $_SESSION['username'];
                         <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                         <circle cx="12" cy="7" r="4"></circle>
                     </svg>
-                    Utilisateur
+                    <span data-fr="Utilisateur" data-en="User">Utilisateur</span>
                 </div>
                 <div class="info-value"><?php echo htmlspecialchars($username); ?></div>
             </div>
@@ -389,11 +551,11 @@ $username = $_SESSION['username'];
                         <circle cx="12" cy="12" r="10"></circle>
                         <polyline points="12 6 12 12 16 14"></polyline>
                     </svg>
-                    Statut
+                    <span data-fr="Statut" data-en="Status">Statut</span>
                 </div>
                 <span class="status-badge">
                     <span class="status-dot"></span>
-                    Connecté
+                    <span data-fr="Connecté" data-en="Connected">Connecté</span>
                 </span>
             </div>
 
@@ -403,7 +565,7 @@ $username = $_SESSION['username'];
                         <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
                         <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                     </svg>
-                    Connexion
+                    <span data-fr="Connexion" data-en="Login">Connexion</span>
                 </div>
                 <div class="info-value"><?php echo date('d/m/Y H:i'); ?></div>
             </div>
@@ -413,7 +575,7 @@ $username = $_SESSION['username'];
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                 <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            Connexion réussie !
+            <span data-fr="Connexion réussie !" data-en="Login successful!">Connexion réussie !</span>
         </div>
 
         <div class="action-buttons">
@@ -424,10 +586,83 @@ $username = $_SESSION['username'];
                         <polyline points="16 17 21 12 16 7"></polyline>
                         <line x1="21" y1="12" x2="9" y2="12"></line>
                     </svg>
-                    Déconnexion
+                    <span data-fr="Déconnexion" data-en="Logout">Déconnexion</span>
                 </button>
             </form>
         </div>
     </div>
+
+    <!-- Footer fixe -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 <strong>ANTON NELSON Steve</strong> - <span data-fr="Tous droits réservés" data-en="All rights reserved">Tous droits réservés</span></p>
+        </div>
+    </footer>
+
+    <script>
+        // Langue actuelle
+        let currentLang = localStorage.getItem('lang') || 'fr';
+        
+        // Thème actuel
+        let isDarkMode = localStorage.getItem('darkMode') === 'true';
+        
+        // Initialisation au chargement
+        document.addEventListener('DOMContentLoaded', function() {
+            // Appliquer le thème sauvegardé
+            if (isDarkMode) {
+                document.body.classList.add('dark-mode');
+                toggleThemeIcons(true);
+            }
+            
+            // Appliquer la langue sauvegardée
+            if (currentLang === 'en') {
+                changeLanguage('en');
+            }
+        });
+        
+        // Gestion du changement de thème
+        document.getElementById('themeToggle').addEventListener('click', function() {
+            isDarkMode = !isDarkMode;
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('darkMode', isDarkMode);
+            toggleThemeIcons(isDarkMode);
+        });
+        
+        function toggleThemeIcons(isDark) {
+            const sunIcon = document.querySelector('.sun-icon');
+            const moonIcon = document.querySelector('.moon-icon');
+            
+            if (isDark) {
+                sunIcon.style.display = 'none';
+                moonIcon.style.display = 'block';
+            } else {
+                sunIcon.style.display = 'block';
+                moonIcon.style.display = 'none';
+            }
+        }
+        
+        // Gestion du changement de langue
+        document.getElementById('langToggle').addEventListener('click', function() {
+            currentLang = currentLang === 'fr' ? 'en' : 'fr';
+            changeLanguage(currentLang);
+            localStorage.setItem('lang', currentLang);
+        });
+        
+        function changeLanguage(lang) {
+            // Mettre à jour le texte du bouton
+            document.querySelector('.lang-text').textContent = lang.toUpperCase();
+            
+            // Mettre à jour tous les éléments avec data-fr et data-en
+            document.querySelectorAll('[data-fr]').forEach(element => {
+                const key = `data-${lang}`;
+                if (element.hasAttribute(key)) {
+                    element.textContent = element.getAttribute(key);
+                }
+            });
+            
+            // Mettre à jour la langue du document
+            document.documentElement.lang = lang;
+        }
+    </script>
 </body>
 </html>
