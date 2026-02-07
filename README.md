@@ -20,7 +20,7 @@ Ce projet est un formulaire d'authentification web sécurisé développé dans l
 - Messages d'erreur informatifs
 
 ###  Création de compte
-<img width="1200" height="200" alt="image" src="https://github.com/user-attachments/assets/ed0127bb-9517-43ed-af8c-356f6c0d85dd" />
+<img width="1200" height="400" alt="image" src="https://github.com/user-attachments/assets/ed0127bb-9517-43ed-af8c-356f6c0d85dd" />
 
 - Inscription de nouveaux utilisateurs
 - Validation du format des identifiants
@@ -41,12 +41,17 @@ Ce projet est un formulaire d'authentification web sécurisé développé dans l
 
 ##  Technologies utilisées
 
-- **HTML5** - Structure de la page
-- **CSS3** - Styles et animations
-- **JavaScript** - Logique de validation et interactivité
-- **PHP** - Traitement côté serveur et gestion des requêtes
-- **MySQL** - Base de données SQL pour le stockage des utilisateurs
-- **WAMP Server 64** - Environnement de développement (Windows, Apache, MySQL, PHP)
+## 🛠️ Technologies utilisées
+
+| Technologie | Description |
+|------------|-------------|
+| **HTML5** | Structure de la page |
+| **CSS3** | Styles et animations |
+| **JavaScript** | Logique de validation et interactivité |
+| **PHP** | Traitement côté serveur et gestion des requêtes |
+| **MySQL** | Base de données SQL pour le stockage des utilisateurs |
+| **WAMP Server 64** | Environnement de développement (Windows, Apache, MySQL, PHP) |
+
 
   ##  Installation
 
