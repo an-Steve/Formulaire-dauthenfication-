@@ -144,7 +144,7 @@ else {
 }
 
 // ----------------------
-// Id :admin / mdp  : password
+// Id :admin / mdp  : password / https://an-steve.github.io/Formulaire-dauthenfication-/
 // ----------------------
 ?>
 
