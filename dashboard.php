@@ -595,7 +595,7 @@ $username = $_SESSION['username'];
     <!-- Footer fixe -->
     <footer class="footer">
         <div class="footer-content">
-            <p>&copy; 2024 <strong>ANTON NELSON Steve</strong> - <span data-fr="Tous droits réservés" data-en="All rights reserved">Tous droits réservés</span></p>
+            <p>&copy; 2026 <strong>ANTON NELCON Steve</strong> - <span data-fr="Tous droits réservés" data-en="All rights reserved">Tous droits réservés</span></p>
         </div>
     </footer>
 
