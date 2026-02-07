@@ -12,12 +12,16 @@ Ce projet est un formulaire d'authentification web sécurisé développé dans l
 
 ##  Fonctionnalités
 
-### 🔑 Connexion sécurisée
+###  Connexion sécurisée
+<img width="1200" height="400" alt="image" src="https://github.com/user-attachments/assets/75d0518a-909e-45ab-8b8a-71749de6f727" />
+
 - Formulaire de connexion avec validation des champs
 - Gestion des sessions utilisateur
 - Messages d'erreur informatifs
 
-### 📝 Création de compte
+###  Création de compte
+<img width="1200" height="200" alt="image" src="https://github.com/user-attachments/assets/ed0127bb-9517-43ed-af8c-356f6c0d85dd" />
+
 - Inscription de nouveaux utilisateurs
 - Validation du format des identifiants
 - Confirmation du mot de passe
@@ -33,7 +37,7 @@ Ce projet est un formulaire d'authentification web sécurisé développé dans l
 - Mode sombre élégant
 - Animations fluides
 - Expérience utilisateur intuitive
-- Support multilingue (FR)
+- Support multilingue (FR/EN)
 
 ##  Technologies utilisées
 
@@ -77,7 +81,7 @@ git clone https://github.com/an-Steve/Formulaire-dauthenfication-.git
    - Ouvrez votre navigateur à l'adresse : `http://localhost/Formulaire/index.html`
    - Assurez-vous que WAMP est en cours d'exécution
   
-     ##  Utilisation
+##  Utilisation
 
 ### Se connecter
 
