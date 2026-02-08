@@ -150,25 +150,19 @@ Une fois WampServer démarré, accédez à **phpMyAdmin** via l’adresse suivan
 
 
 
- > Assurez-vous que la base de données et la table sont bien créées avant de lancer l’application.
+> Assurez-vous que la base de données et la table sont bien créées avant de lancer l’application.
+> → Remarques : 
+> - Le projet fonctionne **uniquement en local**
+> - Les identifiants sont fournis à des fins de **test et développement**
+> - Aucun mot de passe réel n’est exposé
 
----
+---   
+
+##  Utilisation
 
 ## → Accès au formulaire d’authentification
 
 Le formulaire d’authentification est accessible à l’adresse suivante : http://localhost/Formulaire/index.html
-
----
-
-## → Remarques
-
-- Le projet fonctionne **uniquement en local**
-- Les identifiants sont fournis à des fins de **test et développement**
-- Aucun mot de passe réel n’est exposé
-
-   
-
-##  Utilisation
 
 ### Se connecter
 
