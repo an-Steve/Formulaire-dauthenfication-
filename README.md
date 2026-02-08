@@ -12,7 +12,12 @@
 
 Un système de connexion et d'inscription sécurisé développé dans le cadre  du **Master Informatique et Big Data** du module **Théorie de l'Information et Sécurité des Systèmes** .~
 
-Lien d'accès au formulaire : 'https://an-steve.github.io/Formulaire-dauthenfication-/'  (ne fonctionne que avec le serveur WAMP activé)
+##  Accès au Formulaire
+
+**Lien du projet :** https://an-steve.github.io/Formulaire-dauthenfication-/
+
+>  **Important :** Ce projet nécessite un serveur local (**WAMP**) pour fonctionner correctement.  
+> Assurez-vous que votre serveur est activé avant d’accéder au formulaire.
 
 
 ##  À propos
