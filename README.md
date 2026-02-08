@@ -38,6 +38,8 @@ Ce projet est un formulaire d'authentification web sécurisé développé dans l
 | **MySQL** | Base de données SQL pour le stockage des utilisateurs |
 | **WAMP Server 64** | Environnement de développement (Windows, Apache, MySQL, PHP) |
 
+---   
+
 ## Fonctionnalités
 
 ### → Connexion sécurisée
@@ -65,6 +67,7 @@ Ce projet est un formulaire d'authentification web sécurisé développé dans l
 |----------------------|--------------------|
 | <img src="https://github.com/user-attachments/assets/4fe11940-6239-4004-a5b5-88f7f6434594" width="500"/> | <img src="https://github.com/user-attachments/assets/3bc5f3ef-26c3-42b9-b8f5-1e98431283d9" width="500"/> |
 
+---   
 
 ## →  Installation
 
@@ -148,8 +151,6 @@ Une fois WampServer démarré, accédez à **phpMyAdmin** via l’adresse suivan
 </tr>
 </table>
 
-
-
 > Assurez-vous que la base de données et la table sont bien créées avant de lancer l’application.
 > → Remarques : 
 > - Le projet fonctionne **uniquement en local**
@@ -158,18 +159,36 @@ Une fois WampServer démarré, accédez à **phpMyAdmin** via l’adresse suivan
 
 ---   
 
-##  Utilisation
+### →  Utilisation
 
-## → Accès au formulaire d’authentification
+##  Accès au formulaire d’authentification
 
 Le formulaire d’authentification est accessible à l’adresse suivante : http://localhost/Formulaire/index.html
 
-### Se connecter
+###  Se connecter
 
-**Compte de démonstration :**
-- **Identifiant :** `admin`
-- **Mot de passe :** `password`
-- Cliquez sur **"Se connecter"** (2 fois) 
+<table>
+<tr>
+<td width="50%" align="center">
+
+<img src="https://github.com/user-attachments/assets/e5f71c8e-b5e2-4220-bb06-e74499786cb7" width="100%" alt="Connexion" />
+
+</td>
+<td width="50%">
+
+**Compte de démonstration**
+
+| Champ | Valeur |
+|--------|--------|
+| Identifiant | `admin` |
+| Mot de passe | `password` |
+
+ Cliquez sur **"Se connecter"** *(2 fois)*
+
+</td>
+</tr>
+</table>
+
 
 ### Créer un nouveau compte
 
