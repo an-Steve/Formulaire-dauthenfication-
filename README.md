@@ -62,28 +62,68 @@ Ce projet est un formulaire d'authentification web sécurisé développé dans l
 | **CSS3** | Styles et animations |
 | **JavaScript** | Logique de validation et interactivité |
 | **PHP** | Traitement côté serveur et gestion des requêtes |
+| **SQL** | Base de donnée |
 | **MySQL** | Base de données SQL pour le stockage des utilisateurs |
 | **WAMP Server 64** | Environnement de développement (Windows, Apache, MySQL, PHP) |
 
-##  Base de données
+###  Base de données
 
-<img width="1913" height="917" alt="image" src="https://github.com/user-attachments/assets/442eb37e-e26a-424d-af0d-eb910d166013" />
+![Base de données](https://github.com/user-attachments/assets/d4087cb1-baf2-4730-b789-30429f6db9ca)
 
-→ Utilisation avec WampServer pour la gestion de la base de données.
+Ce projet utilise **WampServer** pour la gestion de la base de données MySQL en environnement local.
 
-### Accès à phpMyAdmin 
-Une fois WampServer lancé, accédez à phpMyAdmin via le lien suivant :  
-http://localhost/phpmyadmin/
+---
 
-### Informations de connexion →  
-- Identifiant : `root`  
-- Mot de passe : *(laisser vide)*  
+## → Prérequis
 
-### Configuration de la base de données →  
-- Nom de la base de données : `auth_secure`  
-- Nom de la table : `user`
+- **WampServer** installé et lancé  
+- Serveur **Apache** et **MySQL** actifs  
 
-  ##  Installation
+---
+
+## → Accès à phpMyAdmin
+
+Une fois WampServer démarré, accédez à **phpMyAdmin** via l’adresse suivante : http://localhost/phpmyadmin/
+
+
+### Informations de connexion
+
+| Champ        | Valeur |
+|--------------|--------|
+| Identifiant  | `root` |
+| Mot de passe | *(vide)* |
+
+---
+
+## → Configuration de la base de données à la base de donnée
+
+| Élément | Valeur |
+|--------|--------|
+| Nom de la base de données | `auth_secure` |
+| Nom de la table | `user` |
+
+Assurez-vous que la base de données et la table sont bien créées avant de lancer l’application.
+
+---
+
+## → Accès au formulaire d’authentification
+
+Le formulaire d’authentification est accessible à l’adresse suivante : http://localhost/Formulaire/index.html
+
+
+![Formulaire d’authentification](https://github.com/user-attachments/assets/442eb37e-e26a-424d-af0d-eb910d166013)
+
+---
+
+## → Remarques
+
+- Le projet fonctionne **uniquement en local**
+- Les identifiants sont fournis à des fins de **test et développement**
+- Aucun mot de passe réel n’est exposé
+
+
+
+  ## →  Installation
 
 ### Prérequis
 - **WAMP Server 64** - Pour la base de données MySQL et le serveur Apache
