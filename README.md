@@ -289,6 +289,7 @@ Pour toute question ou suggestion :
 
 ---
 Dernière mise à jour : 08 février 2026
+
 Merci d’avoir regardé 
 
 ---
