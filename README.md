@@ -26,34 +26,29 @@ Un système de connexion et d'inscription sécurisé développé dans le cadre  
 
 Ce projet est un formulaire d'authentification web sécurisé développé dans le cadre d'un projet académique pour le module **"Théorie de l'Information et Sécurité des Systèmes"**. 
 
-##  Fonctionnalités
+## Fonctionnalités
 
-###  Connexion sécurisée
+### → Connexion sécurisée
 | Aperçu | Fonctionnalités |
 |--------|---------------|
-| <img src="https://github.com/user-attachments/assets/75d0518a-909e-45ab-8b8a-71749de6f727" width="500"/> | • **Formulaire de connexion** avec validation des champs<br>  • **Gestion des sessions utilisateur**<br>  • **Messages d'erreur informatifs** |
+| <img src="https://github.com/user-attachments/assets/75d0518a-909e-45ab-8b8a-71749de6f727" width="500"/> | • **Formulaire de connexion** avec validation des champs<br>• **Gestion des sessions utilisateur**<br>• **Messages d'erreur informatifs** |
 
-###  Création de compte
+### → Création de compte
 | Aperçu | Fonctionnalités |
 |--------|---------------|
 | <img src="https://github.com/user-attachments/assets/ed0127bb-9517-43ed-af8c-356f6c0d85dd" width="500"/> | • **Inscription de nouveaux utilisateurs**<br>• **Validation du format des identifiants**<br>• **Confirmation du mot de passe**<br>• **Exigences de complexité pour les mots de passe** |
 
-###  Le compte (Dashboard)
-
+### → Le compte (Dashboard)
 | Aperçu | Détails |
 |--------|--------|
-| <img src="https://github.com/user-attachments/assets/b95508ff-ac51-42ae-83b1-6e2e9803e693" width="500"/> | • **Informations sur l'utilisateur**<br> • **Connecté ou non**<br>• **Heure et date de la dernière connexion** |
+| <img src="https://github.com/user-attachments/assets/b95508ff-ac51-42ae-83b1-6e2e9803e693" width="500"/> | • **Informations sur l'utilisateur**<br>• **Connecté ou non**<br>• **Heure et date de la dernière connexion** |
 
-## Interface utilisateur
-
+### → Interface utilisateur
 | 🌙 Aperçu — Mode sombre | ☀️ Aperçu — Mode clair |
 |------------------------|----------------------|
 | <img src="https://github.com/user-attachments/assets/fba1a6a3-d034-474d-a444-5d386fa3a371" width="500"/> | <img src="https://github.com/user-attachments/assets/3a7a6f1c-4887-4e6e-a99a-fffe8dc110b6" width="500"/> |
 
-<br>
-
-##  Support multilingue
-
+### → Support multilingue
 | 🇫🇷 Aperçu — Français | 🇬🇧 Aperçu — Anglais |
 |----------------------|--------------------|
 | <img src="https://github.com/user-attachments/assets/4fe11940-6239-4004-a5b5-88f7f6434594" width="500"/> | <img src="https://github.com/user-attachments/assets/3bc5f3ef-26c3-42b9-b8f5-1e98431283d9" width="500"/> |
