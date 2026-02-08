@@ -11,6 +11,7 @@
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?logo=mysql&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-8.0-blue)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)
 ![WAMP](https://img.shields.io/badge/WAMP-Server-blueviolet)
