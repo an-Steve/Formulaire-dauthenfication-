@@ -41,23 +41,20 @@ Ce projet est un formulaire d'authentification web sécurisé développé dans l
 - Chiffrement des mots de passe
 - Validation côté client et serveur
 - Sessions sécurisées
-
-##  Interface utilisateur
+## 🎨 Interface utilisateur
 
 | 🌙 Aperçu — Mode sombre | ☀️ Aperçu — Mode clair |
 |------------------------|----------------------|
-| <img src="<img width="1908" height="915" alt="image" src="https://github.com/user-attachments/assets/fba1a6a3-d034-474d-a444-5d386fa3a371" />
-" width="500"/> | <img src="L<img width="1907" height="915" alt="image" src="https://github.com/user-attachments/assets/3a7a6f1c-4887-4e6e-a99a-fffe8dc110b6" /> " width="500"/> |
+| <img src="https://github.com/user-attachments/assets/fba1a6a3-d034-474d-a444-5d386fa3a371" width="500"/> | <img src="https://github.com/user-attachments/assets/3a7a6f1c-4887-4e6e-a99a-fffe8dc110b6" width="500"/> |
 
 <br>
 
-##  Support multilingue
+## 🌍 Support multilingue
 
 | 🇫🇷 Aperçu — Français | 🇬🇧 Aperçu — Anglais |
 |----------------------|--------------------|
-| <img src="<img width="1906" height="917" alt="image" src="https://github.com/user-attachments/assets/4fe11940-6239-4004-a5b5-88f7f6434594" />
-" width="500"/> | <img src="<img width="1912" height="920" alt="image" src="https://github.com/user-attachments/assets/3bc5f3ef-26c3-42b9-b8f5-1e98431283d9" />
-" width="500"/> |
+| <img src="https://github.com/user-attachments/assets/4fe11940-6239-4004-a5b5-88f7f6434594" width="500"/> | <img src="https://github.com/user-attachments/assets/3bc5f3ef-26c3-42b9-b8f5-1e98431283d9" width="500"/> |
+
 
 ##  Technologies utilisées
 
