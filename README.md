@@ -1,10 +1,12 @@
 <div align="center">
-#  Formulaire d'Authentification Sécurisé
+
+# 🔐 Formulaire d'Authentification Sécurisé
+
+</div>
+
 <p align="left">
 → Projet réalisé par <strong>ANTON NELCON Steve</strong>
 </p>
-</div>
-
 
 
 
