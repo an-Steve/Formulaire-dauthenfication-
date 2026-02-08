@@ -2,9 +2,11 @@
 
 #  Formulaire d'Authentification Sécurisé
 
-### →  Projet réalisé par **Anton Nelcon Steve**
-
 </div>
+
+<p align="left">
+→ Projet réalisé par **Anton Nelcon Steve**
+</p>
 
 
 
