@@ -181,6 +181,15 @@ Une fois WampServer démarré, accédez à **phpMyAdmin** via l’adresse suivan
 
 ## → Connexion à la base de donnée et au formulaire
 
+<table>
+  <tr>
+    <td>
+      <img width="500" src="https://github.com/user-attachments/assets/4015ba04-8aee-491a-8405-fafd117375cc" />
+    </td>
+    <td>
+
+**Base de données**
+
 | Élément | Détails |
 |---------|---------|
 | Nom de la base de données | `auth_secure` |
@@ -194,8 +203,10 @@ Une fois WampServer démarré, accédez à **phpMyAdmin** via l’adresse suivan
 - Mot de passe : `''` (vide)  
 - URL phpMyAdmin : [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
 
----
-<img width="1903" height="913" alt="image" src="https://github.com/user-attachments/assets/4015ba04-8aee-491a-8405-fafd117375cc" />
+    </td>
+  </tr>
+</table>
+
 
 
 ---   
