@@ -183,8 +183,6 @@ Le formulaire d’authentification est accessible à l’adresse suivante : http
 | Identifiant | `admin` |
 | Mot de passe | `password` |
 
- Cliquez sur **"Se connecter"** *(2 fois)*
-
 </td>
 </tr>
 </table>
@@ -192,12 +190,27 @@ Le formulaire d’authentification est accessible à l’adresse suivante : http
 
 ### • Créer un nouveau compte
 
-1. Cliquez sur **"Créer un compte"**
-2. Remplissez les champs :
-   - Identifiant (minimum 3 caractères)
-   - Mot de passe (minimum 8 caractères, avec majuscules, minuscules et chiffres)
-   - Confirmation du mot de passe
+<table>
+<tr>
+<td width="50%" valign="top">
+
+1. Cliquez sur **"Créer un compte"**  
+2. Remplissez les champs :  
+   - Identifiant (minimum 3 caractères)  
+   - Mot de passe (minimum 8 caractères, avec majuscules, minuscules et chiffres)  
+   - Confirmation du mot de passe  
 3. Cliquez sur **"Créer mon compte"**
+
+</td>
+<td width="50%" align="center">
+
+<img src="https://github.com/user-attachments/assets/96fe86ec-88a3-421a-9541-7d821629c34c" width="100%" alt="Créer un compte" />
+
+</td>
+</tr>
+</table>
+
+---
 
 ##  Sécurité
 
