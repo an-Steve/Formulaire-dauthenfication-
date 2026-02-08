@@ -1,12 +1,10 @@
 <div align="center">
-
 #  Formulaire d'Authentification Sécurisé
+</div>
 
 <p align="left">
-→ Projet réalisé par **ANTON NELCON Steve**
+→ Projet réalisé par <strong>ANTON NELCON Steve</strong>
 </p>
-
-</div>
 
 
 
