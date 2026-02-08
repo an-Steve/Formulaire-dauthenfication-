@@ -24,9 +24,10 @@ Un système de connexion et d'inscription sécurisé développé dans le cadre  
 
 ## → Vidéo Démonstration : Formulaire d'authentification
 
-Regardez la démonstration complète du formulaire en action, incluant la création de compte, la connexion, et le mode sombre / clair :  
+Regardez la démonstration complète du formulaire en action, incluant la création de compte, la connexion et le mode sombre / clair :
 
-[🎬 Visionner la démo]([https://lien-de-ta-video.com](https://youtu.be/BSlhnXRxjI4))
+[![Visionner  la démo](https://img.youtube.com/vi/BSlhnXRxjI4/maxresdefault.jpg)](https://youtu.be/BSlhnXRxjI4)
+
 
 
 ##  → Accès au Formulaire
