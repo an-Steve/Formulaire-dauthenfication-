@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🔐 Formulaire d'Authentification Sécurisé
+#  Formulaire d'Authentification Sécurisé
 
-### 👨‍💻 Projet réalisé par **Anton Nelcon Steve**
+→  Projet réalisé par **Anton Nelcon Steve**
 
 </div>
 
