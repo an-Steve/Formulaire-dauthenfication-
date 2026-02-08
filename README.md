@@ -1,5 +1,7 @@
 #  Formulaire d'Authentification Sécurisé
-Réalisé par ANTON NELCON Steve 
+
+Projet réalisé par **Anton Nelcon Steve**.
+
 <img width="1902" height="915" alt="image" src="https://github.com/user-attachments/assets/d1c36756-ff5f-48cc-8aac-9e95fcb61d25" />
 
 
