@@ -118,7 +118,7 @@ git clone https://github.com/an-Steve/Formulaire-dauthenfication-.git
    - Importez le fichier SQL fourni (si disponible) ou créez les tables nécessaires
 
 5. **Accéder à au formulaire d'authenfication**
-   <img width="80" height="38" alt="image" src="https://github.com/user-attachments/assets/9417cf09-c6b8-4c24-8a07-31bbeda8a45b" />
+   <img width="150" height="130" alt="image" src="https://github.com/user-attachments/assets/9417cf09-c6b8-4c24-8a07-31bbeda8a45b" />
 
    - Ouvrez votre navigateur à l'adresse : `http://localhost/Formulaire/index.html`
    - Assurez-vous que WAMP est en cours d'exécution
