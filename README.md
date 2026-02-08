@@ -37,12 +37,13 @@ Ce projet est un formulaire d'authentification web sécurisé développé dans l
 |--------|---------------|
 | <img src="https://github.com/user-attachments/assets/ed0127bb-9517-43ed-af8c-356f6c0d85dd" width="500"/> | • **Inscription de nouveaux utilisateurs**<br>• **Validation du format des identifiants**<br>• **Confirmation du mot de passe**<br>• **Exigences de complexité pour les mots de passe** |
 
-### 📊 Le compte (Dashboard)
+###  Le compte (Dashboard)
 
 | Aperçu | Détails |
 |--------|--------|
-| <img src="https://github.com/user-attachments/assets/b95508ff-ac51-42ae-83b1-6e2e9803e693" width="500"/> | • Informations sur l'utilisateur<br> • Connecté ou non<br>• Heure et date de la dernière connexion |
+| <img src="https://github.com/user-attachments/assets/b95508ff-ac51-42ae-83b1-6e2e9803e693" width="500"/> | • **Informations sur l'utilisateur**<br> • **Connecté ou non**<br>• **Heure et date de la dernière connexion** |
 
+## Interface utilisateur
 
 | 🌙 Aperçu — Mode sombre | ☀️ Aperçu — Mode clair |
 |------------------------|----------------------|
