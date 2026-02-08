@@ -278,13 +278,17 @@ Formulaire-dauthenfication-/
     ├── fonts/            # Polices personnalisées
     └── images/           # Images et icônes
 ```
-→ Licence
+→ ### Licence
 
 Projet sous licence MIT. Libre d’utilisation et de modification, citation de l’auteur requise.
+
+---
+
+Pour toute question ou suggestion :  
+- **GitHub :** [ANTON NELCON Steve](https://github.com/an-Steve)
 
 ---
 Dernière mise à jour : 08 février 2026
 Merci d’avoir regardé 
 
----
 ---
