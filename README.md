@@ -5,7 +5,6 @@
 ### →  Projet réalisé par **Anton Nelcon Steve**
 
 </div>
-### →  Projet réalisé par **Anton Nelcon Steve**
 
 
 
@@ -31,7 +30,7 @@ Ce projet est un formulaire d'authentification web sécurisé développé dans l
 ###  Connexion sécurisée
 | Aperçu | Fonctionnalités |
 |--------|---------------|
-| <img src="https://github.com/user-attachments/assets/75d0518a-909e-45ab-8b8a-71749de6f727" width="500"/> | • ** Formulaire de connexion** avec validation des champs<br>  •**Gestion des sessions utilisateur**<br>  •**Messages d'erreur informatifs** |
+| <img src="https://github.com/user-attachments/assets/75d0518a-909e-45ab-8b8a-71749de6f727" width="500"/> | • ** Formulaire de connexion** avec validation des champs<br>  • **Gestion des sessions utilisateur**<br>  • **Messages d'erreur informatifs** |
 
 ###  Création de compte
 | Aperçu | Fonctionnalités |
