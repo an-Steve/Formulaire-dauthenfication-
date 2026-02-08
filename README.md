@@ -210,20 +210,15 @@ Le formulaire d’authentification est accessible à l’adresse suivante : http
 </tr>
 </table>
 
-### • Réinitialisation
+### • Réinitialiser l’identifiant
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="100%" valign="top">
 
 1. Entrez votre **identifiant** dans le champ prévu.  
 2. Cliquez sur **"Initialiser"**.  
 3. Le champ **Identifiant** se vide automatiquement pour indiquer que la réinitialisation a été effectuée.
-
-</td>
-<td width="50%" align="center">
-
-<img src="https://github.com/user-attachments/assets/your-image-id.png" width="100%" alt="Réinitialiser l'identifiant" />
 
 </td>
 </tr>
@@ -238,7 +233,6 @@ Ce projet implémente plusieurs mesures de sécurité :
 ### Validation des entrées
 - Vérification du format des identifiants
 - Exigences de complexité pour les mots de passe
-- Protection contre les caractères spéciaux dangereux
 
   #  Structure du projet
 
