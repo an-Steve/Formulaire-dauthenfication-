@@ -66,7 +66,40 @@ Ce projet est un formulaire d'authentification web sécurisé développé dans l
 | **MySQL** | Base de données SQL pour le stockage des utilisateurs |
 | **WAMP Server 64** | Environnement de développement (Windows, Apache, MySQL, PHP) |
 
-###  Base de données
+## →  Installation
+
+### Prérequis
+- **WAMP Server 64** - Pour la base de données MySQL et le serveur Apache
+- Un navigateur web moderne (Chrome, Firefox, Safari, Edge)
+- Un éditeur de code (VS Code recommandé)
+
+### Étapes d'installation
+
+1. **Installer WAMP Server**
+   - Téléchargez et installez [WAMP Server 64 bits](https://www.wampserver.com/)
+   - Lancez WAMP et assurez-vous que l'icône est verte
+
+2. **Cloner le dépôt**
+```bash
+git clone https://github.com/an-Steve/Formulaire-dauthenfication-.git
+```
+
+3. **Déplacer le projet dans le dossier WAMP**
+```bash
+# Copiez le dossier dans le répertoire www de WAMP
+# Exemple : C:\wamp64\www\Formulaire
+```
+
+4. **Configurer la base de données**
+   - Accédez à phpMyAdmin : `http://localhost/phpmyadmin`
+   - Créez une nouvelle base de données (ex: `formulaire_auth`)
+   - Importez le fichier SQL fourni (si disponible) ou créez les tables nécessaires
+
+5. **Accéder à l'application**
+   - Ouvrez votre navigateur à l'adresse : `http://localhost/Formulaire/index.html`
+   - Assurez-vous que WAMP est en cours d'exécution
+
+  ###  Base de données
 
 ![Base de données](https://github.com/user-attachments/assets/d4087cb1-baf2-4730-b789-30429f6db9ca)
 
@@ -121,41 +154,8 @@ Le formulaire d’authentification est accessible à l’adresse suivante : http
 - Les identifiants sont fournis à des fins de **test et développement**
 - Aucun mot de passe réel n’est exposé
 
+   
 
-
-  ## →  Installation
-
-### Prérequis
-- **WAMP Server 64** - Pour la base de données MySQL et le serveur Apache
-- Un navigateur web moderne (Chrome, Firefox, Safari, Edge)
-- Un éditeur de code (VS Code recommandé)
-
-### Étapes d'installation
-
-1. **Installer WAMP Server**
-   - Téléchargez et installez [WAMP Server 64 bits](https://www.wampserver.com/)
-   - Lancez WAMP et assurez-vous que l'icône est verte
-
-2. **Cloner le dépôt**
-```bash
-git clone https://github.com/an-Steve/Formulaire-dauthenfication-.git
-```
-
-3. **Déplacer le projet dans le dossier WAMP**
-```bash
-# Copiez le dossier dans le répertoire www de WAMP
-# Exemple : C:\wamp64\www\Formulaire
-```
-
-4. **Configurer la base de données**
-   - Accédez à phpMyAdmin : `http://localhost/phpmyadmin`
-   - Créez une nouvelle base de données (ex: `formulaire_auth`)
-   - Importez le fichier SQL fourni (si disponible) ou créez les tables nécessaires
-
-5. **Accéder à l'application**
-   - Ouvrez votre navigateur à l'adresse : `http://localhost/Formulaire/index.html`
-   - Assurez-vous que WAMP est en cours d'exécution
-  
 ##  Utilisation
 
 ### Se connecter
