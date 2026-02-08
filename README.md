@@ -171,7 +171,7 @@ Le formulaire d’authentification est accessible à l’adresse suivante : http
 <tr>
 <td width="50%" align="center">
 
-<img src="<img width="1887" height="916" alt="image" src="https://github.com/user-attachments/assets/5c77a15f-cb61-445a-ac40-918cd54abbcb" width="100%" alt="Connexion" />
+<img width="1887" height="916" alt="image" src="https://github.com/user-attachments/assets/5c77a15f-cb61-445a-ac40-918cd54abbcb" width="100%" alt="Connexion" />
 
 </td>
 <td width="50%">
