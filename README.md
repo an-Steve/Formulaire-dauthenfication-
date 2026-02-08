@@ -177,6 +177,26 @@ Une fois WampServer démarré, accédez à **phpMyAdmin** via l’adresse suivan
 > - Le projet fonctionne **uniquement en local**
 > - Les identifiants sont fournis à des fins de **test et développement**
 > - Aucun mot de passe réel n’est exposé
+>
+
+## → Connexion à la base de donnée et au formulaire
+
+| Élément | Détails |
+|---------|---------|
+| Nom de la base de données | `auth_secure` |
+| Nom de la table | `user` |
+| Colonnes principales | `id`, `username`, `password` |
+| Exemple d’utilisateur | Identifiant : `admin`<br>Mot de passe : `admin123` |
+
+**Connexion à la base de données :**  
+- Serveur : `localhost`  
+- Utilisateur : `root`  
+- Mot de passe : `''` (vide)  
+- URL phpMyAdmin : [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+
+---
+<img width="1903" height="913" alt="image" src="https://github.com/user-attachments/assets/4015ba04-8aee-491a-8405-fafd117375cc" />
+
 
 ---   
 
