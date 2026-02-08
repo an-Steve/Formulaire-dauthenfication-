@@ -8,10 +8,13 @@
 → Projet réalisé par <strong>ANTON NELCON Steve</strong>
 </p>
 
+![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![PHP](https://img.shields.io/badge/PHP-8.0-blue)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)
 ![WAMP](https://img.shields.io/badge/WAMP-Server-blueviolet)
-![License](https://img.shields.io/badge/license-MIT-green)
+
 
 
 <img width="1902" height="915" alt="image" src="https://github.com/user-attachments/assets/d1c36756-ff5f-48cc-8aac-9e95fcb61d25" />
