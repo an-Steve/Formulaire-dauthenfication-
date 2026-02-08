@@ -159,19 +159,19 @@ Une fois WampServer démarré, accédez à **phpMyAdmin** via l’adresse suivan
 
 ---   
 
-### →  Utilisation
+## →  Utilisation
 
-##  Accès au formulaire d’authentification
+###  Accès au formulaire d’authentification
 
 Le formulaire d’authentification est accessible à l’adresse suivante : http://localhost/Formulaire/index.html
 
-###  Se connecter
+### • Se connecter
 
 <table>
 <tr>
 <td width="50%" align="center">
 
-<img src="https://github.com/user-attachments/assets/e5f71c8e-b5e2-4220-bb06-e74499786cb7" width="100%" alt="Connexion" />
+<img src="<img width="1887" height="916" alt="image" src="https://github.com/user-attachments/assets/5c77a15f-cb61-445a-ac40-918cd54abbcb" width="100%" alt="Connexion" />
 
 </td>
 <td width="50%">
@@ -190,7 +190,7 @@ Le formulaire d’authentification est accessible à l’adresse suivante : http
 </table>
 
 
-### Créer un nouveau compte
+### • Créer un nouveau compte
 
 1. Cliquez sur **"Créer un compte"**
 2. Remplissez les champs :
