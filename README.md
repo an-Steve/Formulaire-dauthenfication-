@@ -1,7 +1,7 @@
 <div align="center">
 #  Formulaire d'Authentification Sécurisé
+  →  Projet réalisé par **ANTON NELCON Steve**
 </div>
-→  Projet réalisé par **ANTON NELCON Steve**
 
 
 <img width="1902" height="915" alt="image" src="https://github.com/user-attachments/assets/d1c36756-ff5f-48cc-8aac-9e95fcb61d25" />
@@ -25,15 +25,12 @@ Ce projet est un formulaire d'authentification web sécurisé développé dans l
 ###  Connexion sécurisée
 | Aperçu | Fonctionnalités |
 |--------|---------------|
-| <img src="https://github.com/user-attachments/assets/75d0518a-909e-45ab-8b8a-71749de6f727" width="500"/> |  **Formulaire de connexion** avec validation des champs<br> **Gestion des sessions utilisateur**<br> **Messages d'erreur informatifs** |
+| <img src="https://github.com/user-attachments/assets/75d0518a-909e-45ab-8b8a-71749de6f727" width="500"/> | • ** Formulaire de connexion** avec validation des champs<br>  •**Gestion des sessions utilisateur**<br>  •**Messages d'erreur informatifs** |
 
 ###  Création de compte
-<img width="1200" height="400" alt="image" src="https://github.com/user-attachments/assets/ed0127bb-9517-43ed-af8c-356f6c0d85dd" />
-
-- Inscription de nouveaux utilisateurs
-- Validation du format des identifiants
-- Confirmation du mot de passe
-- Exigences de complexité pour les mots de passe
+| Aperçu | Fonctionnalités |
+|--------|---------------|
+| <img src="https://github.com/user-attachments/assets/ed0127bb-9517-43ed-af8c-356f6c0d85dd" width="500"/> | • **Inscription de nouveaux utilisateurs**<br>• **Validation du format des identifiants**<br>• **Confirmation du mot de passe**<br>• **Exigences de complexité pour les mots de passe** |
 
 ###  Sécurité
 - Chiffrement des mots de passe
