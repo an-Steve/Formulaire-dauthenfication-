@@ -2,7 +2,7 @@
 
 #  Formulaire d'Authentification Sécurisé
 
-→  Projet réalisé par **Anton Nelcon Steve**
+→  Projet réalisé par **ANTON NELCON Steve**
 
 </div>
 
