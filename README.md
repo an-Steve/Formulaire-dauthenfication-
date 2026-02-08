@@ -1,10 +1,8 @@
 <div align="center">
-
 #  Formulaire d'Authentification Sécurisé
-
+</div>
 →  Projet réalisé par **ANTON NELCON Steve**
 
-</div>
 
 <img width="1902" height="915" alt="image" src="https://github.com/user-attachments/assets/d1c36756-ff5f-48cc-8aac-9e95fcb61d25" />
 
@@ -25,11 +23,9 @@ Ce projet est un formulaire d'authentification web sécurisé développé dans l
 ##  Fonctionnalités
 
 ###  Connexion sécurisée
-<img width="1200" height="400" alt="image" src="https://github.com/user-attachments/assets/75d0518a-909e-45ab-8b8a-71749de6f727" />
-
-- Formulaire de connexion avec validation des champs
-- Gestion des sessions utilisateur
-- Messages d'erreur informatifs
+| Aperçu | Fonctionnalités |
+|--------|---------------|
+| <img src="https://github.com/user-attachments/assets/75d0518a-909e-45ab-8b8a-71749de6f727" width="500"/> |  **Formulaire de connexion** avec validation des champs<br> **Gestion des sessions utilisateur**<br> **Messages d'erreur informatifs** |
 
 ###  Création de compte
 <img width="1200" height="400" alt="image" src="https://github.com/user-attachments/assets/ed0127bb-9517-43ed-af8c-356f6c0d85dd" />
