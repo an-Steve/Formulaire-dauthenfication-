@@ -5,7 +5,7 @@
 </div>
 
 <p align="left">
-→ Projet réalisé par **Anton Nelcon Steve**
+→ Projet réalisé par **ANTON NELCON Steve**
 </p>
 
 
