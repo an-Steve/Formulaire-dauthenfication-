@@ -130,21 +130,33 @@ Une fois WampServer démarré, accédez à **phpMyAdmin** via l’adresse suivan
 
 ## → Configuration de la base de données à la base de donnée
 
+<table>
+<tr>
+<td width="50%" align="center">
+
+<img src="https://github.com/user-attachments/assets/afc57e29-487c-43d5-871a-9717eb5fbc20" width="100%" alt="Base de données" />
+
+</td>
+<td width="50%">
+
 | Élément | Valeur |
 |--------|--------|
 | Nom de la base de données | `auth_secure` |
 | Nom de la table | `user` |
 
-Assurez-vous que la base de données et la table sont bien créées avant de lancer l’application.
+</td>
+</tr>
+</table>
+
+
+
+ > Assurez-vous que la base de données et la table sont bien créées avant de lancer l’application.
 
 ---
 
 ## → Accès au formulaire d’authentification
 
 Le formulaire d’authentification est accessible à l’adresse suivante : http://localhost/Formulaire/index.html
-
-
-![Formulaire d’authentification](https://github.com/user-attachments/assets/442eb37e-e26a-424d-af0d-eb910d166013)
 
 ---
 
