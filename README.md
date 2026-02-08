@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔐 Formulaire d'Authentification Sécurisé
+#  Formulaire d'Authentification Sécurisé
 
 </div>
 
