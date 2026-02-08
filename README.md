@@ -1,6 +1,11 @@
-#  Formulaire d'Authentification Sécurisé
+<div align="center">
 
-Projet réalisé par **Anton Nelcon Steve**.
+# 🔐 Formulaire d'Authentification Sécurisé
+
+### 👨‍💻 Projet réalisé par **Anton Nelcon Steve**
+
+</div>
+
 
 <img width="1902" height="915" alt="image" src="https://github.com/user-attachments/assets/d1c36756-ff5f-48cc-8aac-9e95fcb61d25" />
 
