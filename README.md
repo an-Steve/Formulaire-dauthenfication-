@@ -8,11 +8,22 @@
 → Projet réalisé par <strong>ANTON NELCON Steve</strong>
 </p>
 
+![PHP](https://img.shields.io/badge/PHP-8.0-blue)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)
+![WAMP](https://img.shields.io/badge/WAMP-Server-blueviolet)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 
 <img width="1902" height="915" alt="image" src="https://github.com/user-attachments/assets/d1c36756-ff5f-48cc-8aac-9e95fcb61d25" />
 
 Un système de connexion et d'inscription sécurisé développé dans le cadre  du **Master Informatique et Big Data** du module **Théorie de l'Information et Sécurité des Systèmes** .~
+
+## → Vidéo Démonstration : Formulaire d'authentification
+
+Regardez la démonstration complète du formulaire en action, incluant la création de compte, la connexion, et le mode sombre / clair :  
+
+[🎬 Visionner la démo](https://lien-de-ta-video.com)
+
 
 ##  → Accès au Formulaire
 
