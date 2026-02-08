@@ -22,11 +22,13 @@
 
 Un système de connexion et d'inscription sécurisé développé dans le cadre  du **Master Informatique et Big Data** du module **Théorie de l'Information et Sécurité des Systèmes** .~
 
+---
+
 ## → Vidéo Démonstration : Formulaire d'authentification
 
 Regardez la démonstration complète du formulaire d'authenfication : [![Visionner  la démo](https://img.youtube.com/vi/BSlhnXRxjI4/maxresdefault.jpg)](https://youtu.be/BSlhnXRxjI4)
 
-
+---
 
 ##  → Accès au Formulaire
 
@@ -35,10 +37,13 @@ Regardez la démonstration complète du formulaire d'authenfication : [![Visionn
 >  **Important :** Ce projet nécessite un serveur local (**WAMP**) pour fonctionner correctement.  
 > Assurez-vous que votre serveur est activé avant d’accéder au formulaire.
 
+---
 
 ##  À propos
 
 Ce projet est un formulaire d'authentification web sécurisé développé dans le cadre d'un projet académique pour le module **"Théorie de l'Information et Sécurité des Systèmes"**. 
+
+---
 
 ##  Technologies utilisées
 
@@ -273,3 +278,13 @@ Formulaire-dauthenfication-/
     ├── fonts/            # Polices personnalisées
     └── images/           # Images et icônes
 ```
+→ Licence
+
+Projet sous licence MIT. Libre d’utilisation et de modification, citation de l’auteur requise.
+
+---
+Dernière mise à jour : 08 février 2026
+Merci d’avoir regardé 
+
+---
+---
