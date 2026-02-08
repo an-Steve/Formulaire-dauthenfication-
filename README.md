@@ -26,6 +26,18 @@ Un système de connexion et d'inscription sécurisé développé dans le cadre  
 
 Ce projet est un formulaire d'authentification web sécurisé développé dans le cadre d'un projet académique pour le module **"Théorie de l'Information et Sécurité des Systèmes"**. 
 
+##  Technologies utilisées
+
+| Technologie | Description |
+|------------|-------------|
+| **HTML5** | Structure de la page |
+| **CSS3** | Styles et animations |
+| **JavaScript** | Logique de validation et interactivité |
+| **PHP** | Traitement côté serveur et gestion des requêtes |
+| **SQL** | Base de donnée |
+| **MySQL** | Base de données SQL pour le stockage des utilisateurs |
+| **WAMP Server 64** | Environnement de développement (Windows, Apache, MySQL, PHP) |
+
 ## Fonctionnalités
 
 ### → Connexion sécurisée
@@ -53,18 +65,6 @@ Ce projet est un formulaire d'authentification web sécurisé développé dans l
 |----------------------|--------------------|
 | <img src="https://github.com/user-attachments/assets/4fe11940-6239-4004-a5b5-88f7f6434594" width="500"/> | <img src="https://github.com/user-attachments/assets/3bc5f3ef-26c3-42b9-b8f5-1e98431283d9" width="500"/> |
 
-
-##  Technologies utilisées
-
-| Technologie | Description |
-|------------|-------------|
-| **HTML5** | Structure de la page |
-| **CSS3** | Styles et animations |
-| **JavaScript** | Logique de validation et interactivité |
-| **PHP** | Traitement côté serveur et gestion des requêtes |
-| **SQL** | Base de donnée |
-| **MySQL** | Base de données SQL pour le stockage des utilisateurs |
-| **WAMP Server 64** | Environnement de développement (Windows, Apache, MySQL, PHP) |
 
 ## →  Installation
 
