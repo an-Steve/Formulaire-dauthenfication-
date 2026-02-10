@@ -306,6 +306,7 @@ Formulaire-dauthenfication-/
 │
 ├── database/              # Scripts de base de données
 │   └── schema.sql         # Structure de la base de données
+|   └── user(2).sql         # Structure de la base de données exporter via phpMyAdmin
 │
 └── assets/                # Ressources supplémentaires
     ├── fonts/            # Polices personnalisées
