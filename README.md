@@ -177,7 +177,7 @@ Une fois WampServer démarré, accédez à **phpMyAdmin** via l’adresse suivan
 > - Le projet fonctionne **uniquement en local**
 > - Les identifiants sont fournis à des fins de **test et développement**
 > - Aucun mot de passe réel n’est exposé
->
+> - Le fichier a exporté dans PhpMyAdmin est :  `user(2).sql`
 
 ## → Connexion à la base de donnée et au formulaire
 
