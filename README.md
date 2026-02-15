@@ -232,8 +232,8 @@ Le formulaire d’authentification est accessible à l’adresse suivante : http
 
 | Champ | Valeur |
 |--------|--------|
-| Identifiant | `admin` | `Stevetest`|
-| Mot de passe | `password` | `Steve05@` |
+| Identifiant | `admin` | `Stevetest`| `SteveM1IBD`|
+| Mot de passe | `password` | `Steve05@` | `SteveM1IBD@`|
 
 </td>
 </tr>
@@ -332,7 +332,7 @@ Ce projet intègre des mécanismes de validation afin de renforcer la protection
 
 | Aperçu | Règle appliquée |
 |--------|-----------------|
-| <img width="180" alt="Mots de passe différents" src="https://github.com/user-attachments/assets/ddedfd16-5ec4-49f9-a47f-5b00c91021b5" /> | Les mots de passe **ne correspondent pas** |
+| <img width="180" alt="Mots de passe différents" src="https://github.com/user-attachments/assets/ddedfd16-5ec4-49f9-a47f-5b00c91021b5" /> | Les mots de passe <br>**ne correspondent pas** |
 
 </td>
 </tr>
