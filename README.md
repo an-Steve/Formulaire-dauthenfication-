@@ -232,8 +232,8 @@ Le formulaire d’authentification est accessible à l’adresse suivante : http
 
 | Champ        | Valeurs disponibles |
 |--------------|-------------------|
-| Identifiant  | `admin`, `Stevetest`, `SteveM1IBD` |
-| Mot de passe | `password`, `Steve05@`, `SteveM1IBD@` |
+| Identifiant  | `admin` \| `Stevetest` \| `SteveM1IBD` |
+| Mot de passe | `password` \| `Steve05@` \| `SteveM1IBD@` |
 
 
 </td>
