@@ -296,7 +296,7 @@ Ce projet intègre des mécanismes de validation afin de renforcer la protection
 
 | Aperçu | Règle appliquée |
 |--------|-----------------|
-| <img width="200" alt="Majuscule requise" src="<img width="562" height="906" alt="image" src="https://github.com/user-attachments/assets/13a124bc-7ce5-42af-9e0e-f2c954761bd0"  /> | • Le mot de passe doit contenir **au minimum **1 lettre majuscule** |
+| <img width="562" height="906" alt="image" src="https://github.com/user-attachments/assets/13a124bc-7ce5-42af-9e0e-f2c954761bd0"  /> | • Le mot de passe doit contenir **au minimum **1 lettre majuscule** |
 
 </td>
 </tr>
