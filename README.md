@@ -294,45 +294,45 @@ Ce projet intègre des mécanismes de validation afin de renforcer la protection
 
 | Aperçu | Règle appliquée |
 |--------|-----------------|
-| <img width="180" alt="image" src="https://github.com/user-attachments/assets/13a124bc-7ce5-42af-9e0e-f2c954761bd0"  /> | Le mot de passe doit contenir<br>**au minimum 1 lettre majuscule** |
+| <img width="180" alt="Majuscule requise" src="https://github.com/user-attachments/assets/13a124bc-7ce5-42af-9e0e-f2c954761bd0"  /> | Le mot de passe doit contenir<br>**au minimum 1 lettre majuscule** |
 
 </td>
 </tr>
 </table>
 
-<table width="100%">
+<table width="100%" style="margin-top:10px;">
 <tr>
 <td align="center" width="50%">
 
 | Aperçu | Règle appliquée |
 |--------|-----------------|
-|<img width="577" height="908" alt="image" src="https://github.com/user-attachments/assets/1c1530ed-b6d6-4e9e-9ce8-2c500038dc5e" /> | Le mot de passe doit contenir<br>**au minimum 1 lettre miniscule** |
+| <img width="180" alt="Minuscule requise" src="https://github.com/user-attachments/assets/1c1530ed-b6d6-4e9e-9ce8-2c500038dc5e" /> | Le mot de passe doit contenir<br>**au minimum 1 lettre minuscule** |
 
 </td>
 <td align="center" width="50%">
 
 | Aperçu | Règle appliquée |
 |--------|-----------------|
-|<img width="567" height="912" alt="image" src="https://github.com/user-attachments/assets/d0414dd6-5024-4951-814f-120a0e066d19" /> | Le mot de passe doit contenir<br>**au minimum 1 chiffre** |
+| <img width="180" alt="Chiffre requis" src="https://github.com/user-attachments/assets/d0414dd6-5024-4951-814f-120a0e066d19" /> | Le mot de passe doit contenir<br>**au minimum 1 chiffre** |
 
 </td>
 </tr>
 </table>
 
-<table width="100%">
+<table width="100%" style="margin-top:10px;">
 <tr>
 <td align="center" width="50%">
 
 | Aperçu | Règle appliquée |
 |--------|-----------------|
-|<img width="565" height="911" alt="image" src="https://github.com/user-attachments/assets/6b3515d6-3b1a-49c5-b2d7-60bee2c27945" /> | Le mot de passe doit contenir<br>**au minimum 1 caractère spéciale** |
+| <img width="180" alt="Caractère spécial" src="https://github.com/user-attachments/assets/6b3515d6-3b1a-49c5-b2d7-60bee2c27945" /> | Le mot de passe doit contenir<br>**au minimum 1 caractère spécial** |
 
 </td>
 <td align="center" width="50%">
 
 | Aperçu | Règle appliquée |
 |--------|-----------------|
-|<img width="571" height="925" alt="image" src="https://github.com/user-attachments/assets/ddedfd16-5ec4-49f9-a47f-5b00c91021b5" />| Les mots de passe **ne correspondent pas** |
+| <img width="180" alt="Mots de passe différents" src="https://github.com/user-attachments/assets/ddedfd16-5ec4-49f9-a47f-5b00c91021b5" /> | Les mots de passe **ne correspondent pas** |
 
 </td>
 </tr>
