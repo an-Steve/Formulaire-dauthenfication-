@@ -24,9 +24,22 @@ Un système de connexion et d'inscription sécurisé développé dans le cadre  
 
 ---
 
-## → Vidéo Démonstration : Formulaire d'authentification
+## → Vidéo Démonstration : Formulaire d'Authentification
 
-Regardez la démonstration complète du formulaire d'authentification :  [![Visionner la démo](https://img.youtube.com/vi/AncNHjECxJY/0.jpg)](https://youtu.be/AncNHjECxJY)
+<p align="center">
+Regardez la démonstration complète du formulaire d'authentification :
+</p>
+
+<div align="center">
+<a href="https://youtu.be/AncNHjECxJY" target="_blank">
+  <img src="https://img.youtube.com/vi/AncNHjECxJY/0.jpg" alt="Visionner la démo" width="480" style="border: 2px solid #ddd; border-radius: 8px;">
+</a>
+</div>
+
+<p align="center">
+Cliquez sur l'image pour lancer la vidéo
+</p>
+
 
 ---
 
