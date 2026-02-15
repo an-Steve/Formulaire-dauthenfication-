@@ -312,7 +312,7 @@ Formulaire-dauthenfication-/
     ├── fonts/            # Polices personnalisées
     └── images/           # Images et icônes
 ```
-→ ### Licence
+ ### → Licence
 
 Projet sous licence MIT. Libre d’utilisation et de modification, citation de l’auteur requise.
 
