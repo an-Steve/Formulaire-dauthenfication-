@@ -278,7 +278,7 @@ Le formulaire d’authentification est accessible à l’adresse suivante : http
 </table>
 
 ---
-##  → Sécurité
+## → Sécurité
 
 Ce projet intègre des mécanismes de validation afin de renforcer la protection des comptes utilisateurs.
 
@@ -287,19 +287,16 @@ Ce projet intègre des mécanismes de validation afin de renforcer la protection
 <td align="center" width="50%">
 
 | Aperçu | Règle appliquée |
-|--------|-----------------|
-| <img width="578" height="898" alt="image" src="https://github.com/user-attachments/assets/60efb951-8bba-41c2-ba1a-2ed0313a6047" /> | L'utilisateur a droit a <br>**3 tentatives** pour saisir son mot de passe|
-
-| Aperçu | Règle appliquée |
-|--------|-----------------|
-| <img width="180" alt="Longueur minimale" src="https://github.com/user-attachments/assets/e0ba0a63-70c0-43ab-afda-909a2f0a3666" /> | Le mot de passe doit contenir<br>**au minimum 8 caractères** |
+|--------|----------------|
+| <img width="180" height="300" alt="Tentatives" src="https://github.com/user-attachments/assets/60efb951-8bba-41c2-ba1a-2ed0313a6047" /> | L'utilisateur a droit à **3 tentatives** pour saisir son mot de passe |
+| <img width="180" alt="Longueur minimale" src="https://github.com/user-attachments/assets/e0ba0a63-70c0-43ab-afda-909a2f0a3666" /> | Le mot de passe doit contenir **au minimum 8 caractères** |
 
 </td>
 <td align="center" width="50%">
 
 | Aperçu | Règle appliquée |
-|--------|-----------------|
-| <img width="180" alt="Majuscule requise" src="https://github.com/user-attachments/assets/13a124bc-7ce5-42af-9e0e-f2c954761bd0"  /> | Le mot de passe doit contenir<br>**au minimum 1 lettre majuscule** |
+|--------|----------------|
+| <img width="180" alt="Majuscule requise" src="https://github.com/user-attachments/assets/13a124bc-7ce5-42af-9e0e-f2c954761bd0"  /> | Le mot de passe doit contenir **au minimum 1 lettre majuscule** |
 
 </td>
 </tr>
@@ -310,15 +307,15 @@ Ce projet intègre des mécanismes de validation afin de renforcer la protection
 <td align="center" width="50%">
 
 | Aperçu | Règle appliquée |
-|--------|-----------------|
-| <img width="180" alt="Minuscule requise" src="https://github.com/user-attachments/assets/1c1530ed-b6d6-4e9e-9ce8-2c500038dc5e" /> | Le mot de passe doit contenir<br>**au minimum 1 lettre minuscule** |
+|--------|----------------|
+| <img width="180" alt="Minuscule requise" src="https://github.com/user-attachments/assets/1c1530ed-b6d6-4e9e-9ce8-2c500038dc5e" /> | Le mot de passe doit contenir **au minimum 1 lettre minuscule** |
 
 </td>
 <td align="center" width="50%">
 
 | Aperçu | Règle appliquée |
-|--------|-----------------|
-| <img width="180" alt="Chiffre requis" src="https://github.com/user-attachments/assets/d0414dd6-5024-4951-814f-120a0e066d19" /> | Le mot de passe doit contenir<br>**au minimum 1 chiffre** |
+|--------|----------------|
+| <img width="180" alt="Chiffre requis" src="https://github.com/user-attachments/assets/d0414dd6-5024-4951-814f-120a0e066d19" /> | Le mot de passe doit contenir **au minimum 1 chiffre** |
 
 </td>
 </tr>
@@ -329,15 +326,15 @@ Ce projet intègre des mécanismes de validation afin de renforcer la protection
 <td align="center" width="50%">
 
 | Aperçu | Règle appliquée |
-|--------|-----------------|
-| <img width="180" alt="Caractère spécial" src="https://github.com/user-attachments/assets/6b3515d6-3b1a-49c5-b2d7-60bee2c27945" /> | Le mot de passe doit contenir<br>**au minimum 1 caractère spécial** |
+|--------|----------------|
+| <img width="180" alt="Caractère spécial" src="https://github.com/user-attachments/assets/6b3515d6-3b1a-49c5-b2d7-60bee2c27945" /> | Le mot de passe doit contenir **au minimum 1 caractère spécial** |
 
 </td>
 <td align="center" width="50%">
 
 | Aperçu | Règle appliquée |
-|--------|-----------------|
-| <img width="180" alt="Mots de passe différents" src="https://github.com/user-attachments/assets/ddedfd16-5ec4-49f9-a47f-5b00c91021b5" /> | Les mots de passe <br>**ne correspondent pas** |
+|--------|----------------|
+| <img width="180" alt="Mots de passe différents" src="https://github.com/user-attachments/assets/ddedfd16-5ec4-49f9-a47f-5b00c91021b5" /> | Les mots de passe **ne correspondent pas** |
 
 </td>
 </tr>
