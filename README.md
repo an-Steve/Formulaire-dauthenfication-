@@ -285,7 +285,7 @@ Ce projet intègre plusieurs mécanismes de sécurité afin de garantir la prote
 
 | Aperçu | Règle appliquée |
 |--------|------------------|
-| <img width="400" alt="Validation mot de passe" src="https://github.com/user-attachments/assets/e0ba0a63-70c0-43ab-afda-909a2f0a3666" /> | • Le mot de passe doit contenir **au minimum 6 caractères** |
+| <img width="250" alt="Validation mot de passe" src="https://github.com/user-attachments/assets/e0ba0a63-70c0-43ab-afda-909a2f0a3666" /> | • Le mot de passe doit contenir **au minimum 6 caractères** |
 
 ---
 
