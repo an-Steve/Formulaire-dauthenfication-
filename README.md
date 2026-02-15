@@ -343,7 +343,7 @@ Ce projet intègre des mécanismes de validation afin de renforcer la protection
 ---
 
 
- #  Structure du projet
+ ## → Structure du projet
 
 ```
 Formulaire-dauthenfication-/
