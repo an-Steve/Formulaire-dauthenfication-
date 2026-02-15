@@ -277,17 +277,33 @@ Le formulaire d’authentification est accessible à l’adresse suivante : http
 </table>
 
 ---
-## Sécurité
+##  → Sécurité
 
-Ce projet intègre plusieurs mécanismes de sécurité afin de garantir la protection des données et la robustesse du système.
+Ce projet intègre des mécanismes de validation afin de renforcer la protection des comptes utilisateurs.
 
 ### Politique de mot de passe
 
+<table>
+<tr>
+<td align="center">
+
 | Aperçu | Règle appliquée |
-|--------|------------------|
-| <img width="180" alt="Validation mot de passe" src="https://github.com/user-attachments/assets/e0ba0a63-70c0-43ab-afda-909a2f0a3666" /> | • Le mot de passe doit contenir **au minimum 6 caractères** |
+|--------|-----------------|
+| <img width="200" alt="Longueur minimale" src="https://github.com/user-attachments/assets/e0ba0a63-70c0-43ab-afda-909a2f0a3666" /> | • Le mot de passe doit contenir **au minimum 6 caractères** |
+
+</td>
+<td align="center">
+
+| Aperçu | Règle appliquée |
+|--------|-----------------|
+| <img width="200" alt="Majuscule requise" src="<img width="562" height="906" alt="image" src="https://github.com/user-attachments/assets/13a124bc-7ce5-42af-9e0e-f2c954761bd0"  /> | • Le mot de passe doit contenir **au minimum **1 lettre majuscule** |
+
+</td>
+</tr>
+</table>
 
 ---
+
 
 
   #  Structure du projet
