@@ -6,6 +6,9 @@ if (!isset($_SESSION['user_id'])) {
     exit;
 }
 $username = $_SESSION['username'];
+
+// Définir le fuseau horaire sur Paris
+date_default_timezone_set('Europe/Paris');
 ?>
 <!DOCTYPE html>
 <html lang="fr">
