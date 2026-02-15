@@ -27,40 +27,99 @@ $action = isset($_POST['action']) ? $_POST['action'] : '';
 // CONNEXION
 // ----------------------
 if ($action === 'login') {
-
     $username = isset($_POST['username']) ? trim($_POST['username']) : '';
     $password = isset($_POST['password']) ? $_POST['password'] : '';
-
+    
     if (empty($username) || empty($password)) {
         echo json_encode(['success' => false, 'message' => 'Veuillez remplir tous les champs']);
         exit;
     }
-
+    
+    // Initialiser le compteur de tentatives si nécessaire
+    if (!isset($_SESSION['login_attempts'])) {
+        $_SESSION['login_attempts'] = 0;
+        $_SESSION['last_attempt_time'] = null;
+    }
+    
+    // Vérifier si l'utilisateur est bloqué
+    if ($_SESSION['login_attempts'] >= 3) {
+        $time_since_block = time() - $_SESSION['last_attempt_time'];
+        
+        if ($time_since_block < 30) {
+            $remaining_time = 30 - $time_since_block;
+            echo json_encode([
+                'success' => false, 
+                'message' => "Trop de tentatives échouées. Veuillez réessayer dans {$remaining_time} secondes",
+                'blocked' => true,
+                'remaining_time' => $remaining_time
+            ]);
+            exit;
+        } else {
+            // Réinitialiser après 30 secondes
+            $_SESSION['login_attempts'] = 0;
+            $_SESSION['last_attempt_time'] = null;
+        }
+    }
+    
     try {
         $conn = getConnection();
-
         // Recherche de l'utilisateur (insensible à la casse)
         $stmt = $conn->prepare("SELECT id, username, password FROM users WHERE LOWER(username) = LOWER(:username)");
         $stmt->bindParam(':username', $username);
         $stmt->execute();
-
         $user = $stmt->fetch(PDO::FETCH_ASSOC);
-
+        
         if ($user) {
             // Vérification du mot de passe
             if (password_verify($password, $user['password'])) {
-                // Connexion réussie
+                // Connexion réussie - réinitialiser les tentatives
+                $_SESSION['login_attempts'] = 0;
+                $_SESSION['last_attempt_time'] = null;
                 $_SESSION['user_id'] = $user['id'];
                 $_SESSION['username'] = $user['username'];
-
                 echo json_encode(['success' => true, 'message' => 'Connexion réussie !']);
             } else {
-                echo json_encode(['success' => false, 'message' => 'Mot de passe incorrect']);
+                // Mot de passe incorrect - incrémenter les tentatives
+                $_SESSION['login_attempts']++;
+                $_SESSION['last_attempt_time'] = time();
+                
+                $remaining_attempts = 3 - $_SESSION['login_attempts'];
+                
+                if ($remaining_attempts > 0) {
+                    echo json_encode([
+                        'success' => false, 
+                        'message' => "Mot de passe incorrect. Il vous reste {$remaining_attempts} tentative(s)"
+                    ]);
+                } else {
+                    echo json_encode([
+                        'success' => false, 
+                        'message' => 'Trop de tentatives échouées. Compte bloqué pendant 30 secondes',
+                        'blocked' => true,
+                        'remaining_time' => 30
+                    ]);
+                }
             }
         } else {
-            echo json_encode(['success' => false, 'message' => 'Identifiant introuvable']);
+            // Identifiant introuvable - incrémenter les tentatives
+            $_SESSION['login_attempts']++;
+            $_SESSION['last_attempt_time'] = time();
+            
+            $remaining_attempts = 3 - $_SESSION['login_attempts'];
+            
+            if ($remaining_attempts > 0) {
+                echo json_encode([
+                    'success' => false, 
+                    'message' => "Identifiant introuvable. Il vous reste {$remaining_attempts} tentative(s)"
+                ]);
+            } else {
+                echo json_encode([
+                    'success' => false, 
+                    'message' => 'Trop de tentatives échouées. Compte bloqué pendant 30 secondes',
+                    'blocked' => true,
+                    'remaining_time' => 30
+                ]);
+            }
         }
-
     } catch(PDOException $e) {
         echo json_encode([
             'success' => false,
@@ -182,6 +241,7 @@ else {
 // ----------------------
 // Id :admin / mdp  : password
 //Id : Stevetest / mdp : Steve05@ 
+// Id : SteveM1IBD / mdp : SteveM1IBD@
 
 // site :  https://an-steve.github.io/Formulaire-dauthenfication-/
 // ----------------------
