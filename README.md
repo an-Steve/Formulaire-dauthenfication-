@@ -282,9 +282,10 @@ Le formulaire d’authentification est accessible à l’adresse suivante : http
 
 Ce projet implémente plusieurs mesures de sécurité :
 
-### Validation des entrées
-- Vérification du format des identifiants
-- Exigences de complexité pour les mots de passe
+| Aperçu | Caractères insuffisant |
+|--------|---------------|
+| <img width="562" height="858" alt="image" src="https://github.com/user-attachments/assets/e0ba0a63-70c0-43ab-afda-909a2f0a3666" />
+ | • **Nombre de caractères minimales est de 6** |
 
   #  Structure du projet
 
