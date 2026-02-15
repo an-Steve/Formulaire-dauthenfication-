@@ -230,10 +230,11 @@ Le formulaire d’authentification est accessible à l’adresse suivante : http
 
 **Compte de démonstration**
 
-| Champ | Valeur |
-|--------|--------|
-| Identifiant | `admin` | `Stevetest`| `SteveM1IBD`|
-| Mot de passe | `password` | `Steve05@` | `SteveM1IBD@`|
+| Champ        | Valeurs disponibles |
+|--------------|-------------------|
+| Identifiant  | `admin`, `Stevetest`, `SteveM1IBD` |
+| Mot de passe | `password`, `Steve05@`, `SteveM1IBD@` |
+
 
 </td>
 </tr>
