@@ -195,7 +195,7 @@ Une fois WampServer démarré, accédez à **phpMyAdmin** via l’adresse suivan
 | Nom de la base de données | `auth_secure` |
 | Nom de la table | `user` |
 | Colonnes principales | `id`, `username`, `password` |
-| Exemple d’utilisateur | Identifiant : `admin`<br>Mot de passe : `admin123` |
+| Exemple d’utilisateur | Identifiant : `admin`<br>Mot de passe : `password` |
 
 **Connexion à la base de données :**  
 - Serveur : `localhost`  
